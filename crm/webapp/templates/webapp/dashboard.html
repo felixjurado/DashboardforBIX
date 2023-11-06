@@ -1,0 +1,65 @@
+{% extends 'webapp/base.html' %}
+
+{% block content %}
+
+    <h5>Welcome to the dashboard page {{user}}</h5>
+
+    <hr>
+
+    <a class="btn btn-outline-primary btn-sm" href="{% url 'create-record' %}">
+        Create a new record &nbsp;<i class="fa fa-plus" aria-hidden="true"></i>
+    </a>
+
+    <hr>
+
+    <table class="table table-hover table-bordered">
+
+        <thead class="table-primary">
+            <tr>
+                <th scope="col"> ID </th>
+                <th scope="col"> First name </th>
+                <th scope="col"> Last name </th>
+                <th scope="col"> Email </th>
+                <th scope="col"> Phone </th>
+                <th scope="col"> Address </th>
+                <th scope="col"> Company </th>
+                <th scope="col"> Date Joined</th>
+
+                <th scope="col"> View </th>
+
+
+
+            </tr>
+        </thead>
+        <tbody>
+
+        {% if records %}
+
+            {% for record in records %}
+            <tr>
+
+                <td> {{record.id}} </td>
+                <td> {{record.First_name}} </td>
+                <td> {{record.Last_name}} </td>
+                <td> {{record.Email}} </td>
+                <td> {{record.Phone}} </td>
+                <td> {{record.Address}} </td>
+                <td> {{record.Company}} </td>
+                <td> {{record.Creation_date}} </td>
+                
+                <td> <a href="{% url 'record' record.id %}">  <i class="fa fa-eye" aria-hidden="true"></i> </a> </td>
+
+            </tr>
+            {% endfor %}
+
+        {% endif %}
+
+        </tbody>
+
+    </table>
+
+    
+
+{% endblock %}
+
+
