@@ -5,14 +5,13 @@ This dashboard has been made to solve an Internship challenge at BIX Tech Floria
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  
 </p>
 
 <br>
@@ -21,27 +20,47 @@ This dashboard has been made to solve an Internship challenge at BIX Tech Floria
   <img alt="Projeto dashboard" src=".github/preview.jpg" width="100%">
 </p>
 
-## 🚀 Tecnologias
+
+
+## 💻 Technologies
+
+- asgiref==3.6.0
+- Django==4.2
+- django-crispy-forms==1.14.0
+- sqlparse==0.4.4
+- tzdata==2023.3
+
+
+## 🚀 Technologies
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
+- HTML & CSS
+- JavaScript/React
+- Git & Github
+- Python/Django
 
-## 💻 Projeto
+## 🚀 Extra resources
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+- Bootswatch
+- Bootstrap
+- Bootstrap Icons
+- Django Crispy Forms
+- Font Awesome
+- Get Emoji
+
+## 💻 Project
+
+This repository contains the source code for a dashboard application built with Django and React, implementing basic CRUD (Create, Read, Update, Delete) functionality.
+<img alt="Projeto dashboard" src=".github/dashboard.jpg" width="100%">
+
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+You can actually watch a video of me explaining the features of the program at this link: https://www.loom.com/share/d91455d51a834b66b5569d22d7cfa76e?sid=b695d2ea-9c3d-429a-bf17-a67de2be3042
 
-## :memo: Licença
 
-Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Made by Felix Jurado 2023 , check out my LinkedIN https://www.linkedin.com/in/felix-jurado-mba-2271a366/
